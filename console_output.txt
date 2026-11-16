@@ -1,0 +1,24 @@
+Input image: (256, 256), min=40, max=225, mean=119.96, std=27.87
+
+EXPERIMENT 1 - Adaptive decomposition
+Row boundaries    (rad): [0.3436 1.1045]
+Column boundaries (rad): [0.5645 1.7671]
+Energy share of each sub-band, mean removed (%):
+    80.617    7.090    1.051
+     6.679    1.161    1.599
+     1.182    0.161    0.461
+
+EXPERIMENT 2 - Reconstruction
+Max abs error = 1.421e-13,  MSE = 9.817e-28
+Tight-frame check  max|sum(filter^2) - 1| = 1.110e-16
+
+EXPERIMENT 3 - Denoising (PSNR dB / SSIM)
+sigma=10 (estimated 10.98) | noisy 28.13/0.613 | gaussian 31.74/0.867 | median 33.72/0.847 | EWT 32.81/0.860
+sigma=20 (estimated 20.60) | noisy 22.11/0.356 | gaussian 29.80/0.754 | median 28.79/0.653 | EWT 29.10/0.710
+sigma=30 (estimated 30.61) | noisy 18.63/0.230 | gaussian 27.76/0.639 | median 25.70/0.506 | EWT 27.44/0.607
+
+EXPERIMENT 4 - Detail enhancement
+Mean gradient magnitude: input 5.203 -> enhanced 10.179
+Std deviation (contrast): input 27.87 -> enhanced 32.70
+
+Figures saved in outputs
